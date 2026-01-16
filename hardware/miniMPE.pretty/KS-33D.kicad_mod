@@ -1,0 +1,301 @@
+(footprint "KS-33D"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "switch, hall-effect, low-profile")
+	(property "Reference" "REF**"
+		(at 0 8.255 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "237fd1d2-ef47-4431-8c5a-2f345705ca92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "KS-33D"
+		(at 0 -9.8425 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ea1040d6-49a0-4a61-bdb6-7b7bc989c085")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://ueeshop.ly200-cdn.com/u_file/UPAW/UPAW819/2506/10/file/GATERONLowProfileMagneticJadeProSwitchSPEC-KS-33D-001KS-33DD10B060NW-D276KS-33D.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18684e4f-bea7-4e48-bacf-a61d1960aa22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Low-profile hall effect mechanical switch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "227e46ba-142a-49d4-b300-b1e01f2ef001")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -7 -7)
+		(end 7 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ed3d2aa3-59dc-428e-8d17-90e18b5a35c5")
+	)
+	(fp_line
+		(start -1.56 4.315)
+		(end -1.56 3.665)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "92a352d5-09cd-4ef9-915a-34570f1c6fdd")
+	)
+	(fp_line
+		(start -1.56 4.315)
+		(end -1.56 4.965)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "71ca6f04-47c8-467a-8bb9-c91297436d12")
+	)
+	(fp_line
+		(start 1.56 4.315)
+		(end 1.56 3.665)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "75237d79-00e0-455a-b721-3bb325ce4ae9")
+	)
+	(fp_line
+		(start 1.56 4.315)
+		(end 1.56 4.965)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "f834d254-3881-4570-8c20-284eb5f6bb9b")
+	)
+	(fp_poly
+		(pts
+			(xy 1.51 5.4775) (xy 1.84 5.7175) (xy 1.84 5.2375)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "32fa5784-ddb8-4e32-a88e-b5de00409db9")
+	)
+	(fp_line
+		(start -1.6 -6.35)
+		(end -1.6 -3.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "45391093-0014-4aad-87d2-040f2cea4566")
+	)
+	(fp_line
+		(start -1.6 -3.55)
+		(end 1.6 -3.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "af1c1d11-8efb-4dcf-8327-6c4c3de091b5")
+	)
+	(fp_line
+		(start 1.6 -6.35)
+		(end -1.6 -6.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f705aeaf-99d4-4e87-91a8-b07f61fc53b7")
+	)
+	(fp_line
+		(start 1.6 -3.55)
+		(end 1.6 -6.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e9942923-90ab-4426-9e1c-42a3f511f854")
+	)
+	(fp_rect
+		(start -9 -9)
+		(end 9 9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e95c7e4f-e51c-45a9-bef9-c22d811feac7")
+	)
+	(fp_line
+		(start -1.45 3.665)
+		(end -1.45 4.965)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "18096056-49cc-4708-8398-4e304742a1d8")
+	)
+	(fp_line
+		(start -1.45 4.965)
+		(end 1.125 4.965)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "10106a91-289a-4120-88f0-9f5ad1227d18")
+	)
+	(fp_line
+		(start 1.125 4.965)
+		(end 1.45 4.64)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "33698ed9-9ec7-4511-b2ba-32204d69b28c")
+	)
+	(fp_line
+		(start 1.45 3.665)
+		(end -1.45 3.665)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "f109a5d8-5b05-446d-8b5e-83e9112ff540")
+	)
+	(fp_line
+		(start 1.45 4.64)
+		(end 1.45 3.665)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "253cccba-34c5-43c8-8ca0-1abd47e2ac54")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -8.3425 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4f75a0cb-93b4-4e91-83e9-11e13f8b0ad4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -5.08 0)
+		(size 1.7 1.7)
+		(drill 1.7)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "78a21bcb-56e8-4afd-9884-543dbd8cadbe")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 5.2 5.2)
+		(drill 5.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "60b6e3b3-43a8-401d-8c0b-c5cb76bb28d8")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.08 0)
+		(size 1.7 1.7)
+		(drill 1.7)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "3198c1a3-61ed-4360-a719-7b8252071ff2")
+	)
+	(pad "1" smd rect
+		(at -2.6 -5.7)
+		(size 1.8 0.82)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "e852833c-5cf0-48e3-b510-aee7f79eb16c")
+	)
+	(pad "1" smd roundrect
+		(at 0 3.3775 270)
+		(size 1.475 0.6)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b3fd9832-fd0c-4435-a314-595c51db0cb8")
+	)
+	(pad "2" smd rect
+		(at -2.6 -4.2)
+		(size 1.8 0.82)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "7d37e5e4-c55e-428b-a062-17a23304317c")
+	)
+	(pad "3" smd rect
+		(at 2.6 -4.2)
+		(size 1.8 0.82)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "c6cc9275-90ad-4d9c-9bb9-08d6d8ebbe2d")
+	)
+	(pad "4" smd rect
+		(at 2.6 -5.7)
+		(size 1.8 0.82)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "30db6d48-84bf-4bf4-bc72-16d6ec33e154")
+	)
+	(pad "5" smd roundrect
+		(at 0.95 5.2525 270)
+		(size 1.475 0.6)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "b3dfb8d1-b8c3-4a74-9eef-87386d301f60")
+	)
+	(pad "6" smd roundrect
+		(at -0.95 5.2525 270)
+		(size 1.475 0.6)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0b8e4e1c-df21-486b-b5c1-f4e86ab55f0c")
+	)
+	(embedded_fonts no)
+)
